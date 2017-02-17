@@ -2,6 +2,8 @@
 
 Easily launch VirtualBox® machines from your macOS Menubar.
 
+![Light mode](http://i.imgur.com/2USFOuG.png) ![Dark mode](http://i.imgur.com/Jncxe3K.png)
+
 This is a fork of the original [VirtualBox Menulet](http://statusmenus.sourceforge.net/) application with a few tweaks.
 Specifically, the icons have been cleaned up a bit, and the code has been altered to work with a dark Menubar in OSX/macOS.
 

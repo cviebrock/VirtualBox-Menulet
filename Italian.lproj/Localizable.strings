@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>&apos;%@&apos; is currently running</key>
+	<string>&apos;%@&apos; in esecuzione</string>
+	<key>Cancel</key>
+	<string>Cancella</string>
+	<key>Click				: show stop dialog
+Option-click		: switch to a machine (when possible)</key>
+	<string>Click				: mostra finestra di interruzione
+Option-click		: cambia macchina (quando possibile)</string>
+	<key>Click				: switch to a machine (when possible)
+Option-click		: show stop dialog</key>
+	<string>Click				: cambia macchina (quando possibile)
+Option-click		: mostra finestra di interruzione</string>
+	<key>Failed to find the VirtualBox application</key>
+	<string>Impossibile trovare VirtuaBox</string>
+	<key>Failed to launch virtual machine</key>
+	<string>Avvio della macchina virtuale fallito</string>
+	<key>Failed to open VirtualBox settings file</key>
+	<string>Apertura delle impostazioni di VirtualBox fallita</string>
+	<key>Launch VirtualBox</key>
+	<string>Avvia VirtualBox</string>
+	<key>Locate</key>
+	<string>Individua</string>
+	<key>Missing command line tools</key>
+	<string>Strumenti a linea di comando assenti</string>
+	<key>OK</key>
+	<string>OK</string>
+	<key>Please locate the VirtualBox application</key>
+	<string>Per favore individua l&apos;applicazione VirtualBox</string>
+	<key>Powering machine off…</key>
+	<string>Spegnimento della macchina...</string>
+	<key>Preferences…</key>
+	<string>Preferenze...</string>
+	<key>Quit</key>
+	<string>Esci</string>
+	<key>Run in Headless Mode</key>
+	<string>Esegui in modalità Headless</string>
+	<key>Run in Remote Desktop Server Mode</key>
+	<string>Esegui in modalità Remote Desktop Server</string>
+	<key>Saving state…</key>
+	<string>Salvataggio...</string>
+	<key>Sending shutdown signal…</key>
+	<string>Invio del segnale di arresto...</string>
+	<key>Start at Launch</key>
+	<string>Esegui al lancio di VB Menulet</string>
+	<key>Try opening it in the main VirtualBox application</key>
+	<string>Prova ad aprirlo con l&apos;applicazione principale di VirtualBox</string>
+	<key>Unable to find &apos;%@&apos; in the folder &apos;%@&apos;</key>
+	<string>Impossibile trovare &apos;%@&apos; nella cartella &apos;%@&apos;</string>
+	<key>VirtualBox command line utilities must be installed</key>
+	<string>Gli strumenti a riga di comando di VirtualBox devono essere installati</string>
+</dict>
+</plist>

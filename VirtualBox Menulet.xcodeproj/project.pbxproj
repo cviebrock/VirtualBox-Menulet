@@ -1,0 +1,599 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1DDD58160DA1D0A300B32029 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DDD58140DA1D0A300B32029 /* MainMenu.xib */; };
+		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
+		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
+		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+		FE196D6911C1264800CB1564 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = FE196D6611C1264800CB1564 /* Localizable.strings */; };
+		FE196DB611C1979300CB1564 /* VirtualBox Menulet.icns in Resources */ = {isa = PBXBuildFile; fileRef = FE196DB511C1979300CB1564 /* VirtualBox Menulet.icns */; };
+		FE23AC0C11C3DCC900801B8C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
+		FE23AC0D11C3DCC900801B8C /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DDD58140DA1D0A300B32029 /* MainMenu.xib */; };
+		FE23AC0E11C3DCC900801B8C /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = FE196D6611C1264800CB1564 /* Localizable.strings */; };
+		FE23AC0F11C3DCC900801B8C /* VirtualBox Menulet.icns in Resources */ = {isa = PBXBuildFile; fileRef = FE196DB511C1979300CB1564 /* VirtualBox Menulet.icns */; };
+		FE23AC1111C3DCC900801B8C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
+		FE23AC1211C3DCC900801B8C /* VMAppController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE8D849A11C0211B0082D3B6 /* VMAppController.m */; };
+		FE23AC1411C3DCC900801B8C /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+		FE25317B11DC68A80050ABD5 /* loginhelper in Resources */ = {isa = PBXBuildFile; fileRef = FE25317A11DC68A80050ABD5 /* loginhelper */; };
+		FE25317C11DC68A80050ABD5 /* loginhelper in Resources */ = {isa = PBXBuildFile; fileRef = FE25317A11DC68A80050ABD5 /* loginhelper */; };
+		FE37972C11F9FD840089701F /* VMWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = FE37972B11F9FD840089701F /* VMWindow.m */; };
+		FE37972D11F9FD840089701F /* VMWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = FE37972B11F9FD840089701F /* VMWindow.m */; };
+		FE37973F11F9FFDA0089701F /* VMTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = FE37973E11F9FFDA0089701F /* VMTableView.m */; };
+		FE37974011F9FFDA0089701F /* VMTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = FE37973E11F9FFDA0089701F /* VMTableView.m */; };
+		FE50759811D236F2006FBA24 /* SMIcon.pdf in Resources */ = {isa = PBXBuildFile; fileRef = FE50759711D236F2006FBA24 /* SMIcon.pdf */; };
+		FE50759911D236F2006FBA24 /* SMIcon.pdf in Resources */ = {isa = PBXBuildFile; fileRef = FE50759711D236F2006FBA24 /* SMIcon.pdf */; };
+		FE5075A311D23868006FBA24 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE5075A211D23868006FBA24 /* QuartzCore.framework */; };
+		FE5075A411D23869006FBA24 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE5075A211D23868006FBA24 /* QuartzCore.framework */; };
+		FE5FC94611D79E0A0082BC65 /* VMCrippledButton.m in Sources */ = {isa = PBXBuildFile; fileRef = FE5FC94511D79E0A0082BC65 /* VMCrippledButton.m */; };
+		FE5FC94711D79E0A0082BC65 /* VMCrippledButton.m in Sources */ = {isa = PBXBuildFile; fileRef = FE5FC94511D79E0A0082BC65 /* VMCrippledButton.m */; };
+		FE63C19311F1C24700EAD314 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = FE63C19111F1C24700EAD314 /* Credits.rtf */; };
+		FE63C19411F1C24700EAD314 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = FE63C19111F1C24700EAD314 /* Credits.rtf */; };
+		FE7DE5D011E3493200FD070F /* VMRunning.pdf in Resources */ = {isa = PBXBuildFile; fileRef = FE7DE5CE11E3493200FD070F /* VMRunning.pdf */; };
+		FE7DE5D211E3493200FD070F /* VMRunning.pdf in Resources */ = {isa = PBXBuildFile; fileRef = FE7DE5CE11E3493200FD070F /* VMRunning.pdf */; };
+		FE7DE69E11E35A1200FD070F /* VMMenuItem.m in Sources */ = {isa = PBXBuildFile; fileRef = FE7DE69D11E35A1200FD070F /* VMMenuItem.m */; };
+		FE7DE69F11E35A1200FD070F /* VMMenuItem.m in Sources */ = {isa = PBXBuildFile; fileRef = FE7DE69D11E35A1200FD070F /* VMMenuItem.m */; };
+		FE7DE75111E36CB300FD070F /* VMDown.pdf in Resources */ = {isa = PBXBuildFile; fileRef = FE7DE74F11E36CB300FD070F /* VMDown.pdf */; };
+		FE7DE75211E36CB300FD070F /* VMUp.pdf in Resources */ = {isa = PBXBuildFile; fileRef = FE7DE75011E36CB300FD070F /* VMUp.pdf */; };
+		FE7DE75311E36CB300FD070F /* VMDown.pdf in Resources */ = {isa = PBXBuildFile; fileRef = FE7DE74F11E36CB300FD070F /* VMDown.pdf */; };
+		FE7DE75411E36CB300FD070F /* VMUp.pdf in Resources */ = {isa = PBXBuildFile; fileRef = FE7DE75011E36CB300FD070F /* VMUp.pdf */; };
+		FE8D849B11C0211B0082D3B6 /* VMAppController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE8D849A11C0211B0082D3B6 /* VMAppController.m */; };
+		FEA3DF2111E25C3800B8B355 /* VMDisable.pdf in Resources */ = {isa = PBXBuildFile; fileRef = FEA3DF1F11E25C3800B8B355 /* VMDisable.pdf */; };
+		FEA3DF2311E25C3800B8B355 /* VMDisable.pdf in Resources */ = {isa = PBXBuildFile; fileRef = FEA3DF1F11E25C3800B8B355 /* VMDisable.pdf */; };
+		FEE2824511E1B81B0077E2BB /* Preferences.xib in Resources */ = {isa = PBXBuildFile; fileRef = FEE2824311E1B81B0077E2BB /* Preferences.xib */; };
+		FEE2824611E1B81B0077E2BB /* Preferences.xib in Resources */ = {isa = PBXBuildFile; fileRef = FEE2824311E1B81B0077E2BB /* Preferences.xib */; };
+		FEE2824B11E1B89D0077E2BB /* VMPreferences.m in Sources */ = {isa = PBXBuildFile; fileRef = FEE2824911E1B89D0077E2BB /* VMPreferences.m */; };
+		FEE2824C11E1B89D0077E2BB /* VMPreferences.m in Sources */ = {isa = PBXBuildFile; fileRef = FEE2824911E1B89D0077E2BB /* VMPreferences.m */; };
+		FEF4DE8A11E3C11B00996FC8 /* VMShut.pdf in Resources */ = {isa = PBXBuildFile; fileRef = FEF4DE8911E3C11B00996FC8 /* VMShut.pdf */; };
+		FEF4DE8B11E3C11B00996FC8 /* VMShut.pdf in Resources */ = {isa = PBXBuildFile; fileRef = FEF4DE8911E3C11B00996FC8 /* VMShut.pdf */; };
+		FEF4DE9911E3D9E400996FC8 /* VMOptions.pdf in Resources */ = {isa = PBXBuildFile; fileRef = FEF4DE9811E3D9E400996FC8 /* VMOptions.pdf */; };
+		FEF4DE9A11E3D9E400996FC8 /* VMOptions.pdf in Resources */ = {isa = PBXBuildFile; fileRef = FEF4DE9811E3D9E400996FC8 /* VMOptions.pdf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		089C165DFE840E0CC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		13E42FB307B3F0F600E4EEF1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
+		1DDD58150DA1D0A300B32029 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		32CA4F630368D1EE00C91783 /* VirtualBox Menulet_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "VirtualBox Menulet_Prefix.pch"; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D1107320486CEB800E47090 /* VirtualBox Menulet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "VirtualBox Menulet.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE196D6511C1264800CB1564 /* Dutch */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Dutch; path = Dutch.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FE196D6711C1264800CB1564 /* Dutch */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = Dutch; path = Dutch.lproj/Localizable.strings; sourceTree = "<group>"; };
+		FE196D6811C1264800CB1564 /* Dutch */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Dutch; path = Dutch.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		FE196D6C11C1265600CB1564 /* English */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/Localizable.strings; sourceTree = "<group>"; };
+		FE196DB511C1979300CB1564 /* VirtualBox Menulet.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = "VirtualBox Menulet.icns"; path = "Images/VirtualBox Menulet.icns"; sourceTree = "<group>"; };
+		FE23AC1811C3DCC900801B8C /* VirtualBox Menulet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "VirtualBox Menulet.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE25317A11DC68A80050ABD5 /* loginhelper */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = loginhelper; sourceTree = "<group>"; };
+		FE3552B211F88453006CF8A7 /* French */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = French; path = French.lproj/Credits.rtf; sourceTree = "<group>"; };
+		FE3552B311F88453006CF8A7 /* French */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = French; path = French.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FE3552B411F88453006CF8A7 /* French */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = French; path = French.lproj/Localizable.strings; sourceTree = "<group>"; };
+		FE3552B511F88453006CF8A7 /* French */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = French; path = French.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		FE3552B611F88453006CF8A7 /* French */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = French; path = French.lproj/Preferences.xib; sourceTree = "<group>"; };
+		FE37972A11F9FD840089701F /* VMWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VMWindow.h; path = Source/VMWindow.h; sourceTree = "<group>"; };
+		FE37972B11F9FD840089701F /* VMWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VMWindow.m; path = Source/VMWindow.m; sourceTree = "<group>"; };
+		FE37973D11F9FFDA0089701F /* VMTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VMTableView.h; path = Source/VMTableView.h; sourceTree = "<group>"; };
+		FE37973E11F9FFDA0089701F /* VMTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VMTableView.m; path = Source/VMTableView.m; sourceTree = "<group>"; };
+		FE50759711D236F2006FBA24 /* SMIcon.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = SMIcon.pdf; path = Images/SMIcon.pdf; sourceTree = "<group>"; };
+		FE5075A211D23868006FBA24 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = /System/Library/Frameworks/QuartzCore.framework; sourceTree = "<absolute>"; };
+		FE5FC94411D79E0A0082BC65 /* VMCrippledButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VMCrippledButton.h; path = Source/VMCrippledButton.h; sourceTree = "<group>"; };
+		FE5FC94511D79E0A0082BC65 /* VMCrippledButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VMCrippledButton.m; path = Source/VMCrippledButton.m; sourceTree = "<group>"; };
+		FE63C11F11F1B10A00EAD314 /* German */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = German; path = German.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FE63C12011F1B10A00EAD314 /* German */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = German; path = German.lproj/Localizable.strings; sourceTree = "<group>"; };
+		FE63C12111F1B10A00EAD314 /* German */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = German; path = German.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		FE63C12211F1B10A00EAD314 /* German */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = German; path = German.lproj/Preferences.xib; sourceTree = "<group>"; };
+		FE63C19211F1C24700EAD314 /* Dutch */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = Dutch; path = Dutch.lproj/Credits.rtf; sourceTree = "<group>"; };
+		FE63C19711F1C25000EAD314 /* English */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = English; path = English.lproj/Credits.rtf; sourceTree = "<group>"; };
+		FE63C19A11F1C25A00EAD314 /* German */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = German; path = German.lproj/Credits.rtf; sourceTree = "<group>"; };
+		FE7DE5CE11E3493200FD070F /* VMRunning.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = VMRunning.pdf; path = Images/VMRunning.pdf; sourceTree = "<group>"; };
+		FE7DE69C11E35A1200FD070F /* VMMenuItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VMMenuItem.h; path = Source/VMMenuItem.h; sourceTree = "<group>"; };
+		FE7DE69D11E35A1200FD070F /* VMMenuItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VMMenuItem.m; path = Source/VMMenuItem.m; sourceTree = "<group>"; };
+		FE7DE74F11E36CB300FD070F /* VMDown.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = VMDown.pdf; path = Images/VMDown.pdf; sourceTree = "<group>"; };
+		FE7DE75011E36CB300FD070F /* VMUp.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = VMUp.pdf; path = Images/VMUp.pdf; sourceTree = "<group>"; };
+		FE8D849911C0211B0082D3B6 /* VMAppController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VMAppController.h; path = Source/VMAppController.h; sourceTree = "<group>"; };
+		FE8D849A11C0211B0082D3B6 /* VMAppController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VMAppController.m; path = Source/VMAppController.m; sourceTree = "<group>"; };
+		FEA3DF1F11E25C3800B8B355 /* VMDisable.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = VMDisable.pdf; path = Images/VMDisable.pdf; sourceTree = "<group>"; };
+		FEC30D5111FC7FE2006400D1 /* Spanish */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = Spanish; path = Spanish.lproj/Credits.rtf; sourceTree = "<group>"; };
+		FEC30D5211FC7FE2006400D1 /* Spanish */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Spanish; path = Spanish.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FEC30D5311FC7FE2006400D1 /* Spanish */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Spanish; path = Spanish.lproj/Localizable.strings; sourceTree = "<group>"; };
+		FEC30D5411FC7FE2006400D1 /* Spanish */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Spanish; path = Spanish.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		FEC30D5511FC7FE2006400D1 /* Spanish */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Spanish; path = Spanish.lproj/Preferences.xib; sourceTree = "<group>"; };
+		FED5615F11FC478A001207B7 /* Italian */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = Italian; path = Italian.lproj/Credits.rtf; sourceTree = "<group>"; };
+		FED5616011FC478A001207B7 /* Italian */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Italian; path = Italian.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FED5616111FC478A001207B7 /* Italian */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Italian; path = Italian.lproj/Localizable.strings; sourceTree = "<group>"; };
+		FED5616211FC478A001207B7 /* Italian */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Italian; path = Italian.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		FED5616311FC478A001207B7 /* Italian */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Italian; path = Italian.lproj/Preferences.xib; sourceTree = "<group>"; };
+		FEE2824411E1B81B0077E2BB /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/Preferences.xib; sourceTree = "<group>"; };
+		FEE2824911E1B89D0077E2BB /* VMPreferences.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VMPreferences.m; path = Source/VMPreferences.m; sourceTree = "<group>"; };
+		FEE2824A11E1B89D0077E2BB /* VMPreferences.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VMPreferences.h; path = Source/VMPreferences.h; sourceTree = "<group>"; };
+		FEE2829711E1C0E80077E2BB /* Dutch */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Dutch; path = Dutch.lproj/Preferences.xib; sourceTree = "<group>"; };
+		FEF4DE8911E3C11B00996FC8 /* VMShut.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = VMShut.pdf; path = Images/VMShut.pdf; sourceTree = "<group>"; };
+		FEF4DE9811E3D9E400996FC8 /* VMOptions.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = VMOptions.pdf; path = Images/VMOptions.pdf; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D11072E0486CEB800E47090 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
+				FE5075A311D23868006FBA24 /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE23AC1311C3DCC900801B8C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE23AC1411C3DCC900801B8C /* Cocoa.framework in Frameworks */,
+				FE5075A411D23869006FBA24 /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				FE8D849911C0211B0082D3B6 /* VMAppController.h */,
+				FE8D849A11C0211B0082D3B6 /* VMAppController.m */,
+				FEE2824A11E1B89D0077E2BB /* VMPreferences.h */,
+				FEE2824911E1B89D0077E2BB /* VMPreferences.m */,
+				FE5FC94411D79E0A0082BC65 /* VMCrippledButton.h */,
+				FE5FC94511D79E0A0082BC65 /* VMCrippledButton.m */,
+				FE7DE69C11E35A1200FD070F /* VMMenuItem.h */,
+				FE7DE69D11E35A1200FD070F /* VMMenuItem.m */,
+				FE37972A11F9FD840089701F /* VMWindow.h */,
+				FE37972B11F9FD840089701F /* VMWindow.m */,
+				FE37973D11F9FFDA0089701F /* VMTableView.h */,
+				FE37973E11F9FFDA0089701F /* VMTableView.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FE5075A211D23868006FBA24 /* QuartzCore.framework */,
+				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7A2FEA54F0111CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				29B97324FDCFA39411CA2CEA /* AppKit.framework */,
+				13E42FB307B3F0F600E4EEF1 /* CoreData.framework */,
+				29B97325FDCFA39411CA2CEA /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107320486CEB800E47090 /* VirtualBox Menulet.app */,
+				FE23AC1811C3DCC900801B8C /* VirtualBox Menulet.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* VirtualBox Menulet */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = "VirtualBox Menulet";
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* VirtualBox Menulet_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				FE63C19111F1C24700EAD314 /* Credits.rtf */,
+				FEBCC96A11EB2312007AFBF4 /* Images */,
+				FE25317A11DC68A80050ABD5 /* loginhelper */,
+				FE196DB511C1979300CB1564 /* VirtualBox Menulet.icns */,
+				FE196D6611C1264800CB1564 /* Localizable.strings */,
+				8D1107310486CEB800E47090 /* Info.plist */,
+				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
+				1DDD58140DA1D0A300B32029 /* MainMenu.xib */,
+				FEE2824311E1B81B0077E2BB /* Preferences.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */,
+				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FEBCC96A11EB2312007AFBF4 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				FEF4DE8911E3C11B00996FC8 /* VMShut.pdf */,
+				FE7DE74F11E36CB300FD070F /* VMDown.pdf */,
+				FE7DE75011E36CB300FD070F /* VMUp.pdf */,
+				FE7DE5CE11E3493200FD070F /* VMRunning.pdf */,
+				FEA3DF1F11E25C3800B8B355 /* VMDisable.pdf */,
+				FEF4DE9811E3D9E400996FC8 /* VMOptions.pdf */,
+				FE50759711D236F2006FBA24 /* SMIcon.pdf */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D1107260486CEB800E47090 /* VirtualBox Menulet (32-bit) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "VirtualBox Menulet (32-bit)" */;
+			buildPhases = (
+				8D1107290486CEB800E47090 /* Resources */,
+				8D11072C0486CEB800E47090 /* Sources */,
+				8D11072E0486CEB800E47090 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "VirtualBox Menulet (32-bit)";
+			productInstallPath = "$(HOME)/Applications";
+			productName = "VirtualBox Menulet";
+			productReference = 8D1107320486CEB800E47090 /* VirtualBox Menulet.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FE23AC0A11C3DCC900801B8C /* VirtualBox Menulet (64-bit)  */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE23AC1511C3DCC900801B8C /* Build configuration list for PBXNativeTarget "VirtualBox Menulet (64-bit) " */;
+			buildPhases = (
+				FE23AC0B11C3DCC900801B8C /* Resources */,
+				FE23AC1011C3DCC900801B8C /* Sources */,
+				FE23AC1311C3DCC900801B8C /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "VirtualBox Menulet (64-bit) ";
+			productInstallPath = "$(HOME)/Applications";
+			productName = "VirtualBox Menulet";
+			productReference = FE23AC1811C3DCC900801B8C /* VirtualBox Menulet.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "VirtualBox Menulet" */;
+			compatibilityVersion = "Xcode 3.1";
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+				Dutch,
+				Italian,
+				Spanish,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* VirtualBox Menulet */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D1107260486CEB800E47090 /* VirtualBox Menulet (32-bit) */,
+				FE23AC0A11C3DCC900801B8C /* VirtualBox Menulet (64-bit)  */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D1107290486CEB800E47090 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */,
+				1DDD58160DA1D0A300B32029 /* MainMenu.xib in Resources */,
+				FE196D6911C1264800CB1564 /* Localizable.strings in Resources */,
+				FE196DB611C1979300CB1564 /* VirtualBox Menulet.icns in Resources */,
+				FE50759811D236F2006FBA24 /* SMIcon.pdf in Resources */,
+				FE25317C11DC68A80050ABD5 /* loginhelper in Resources */,
+				FEE2824511E1B81B0077E2BB /* Preferences.xib in Resources */,
+				FEA3DF2111E25C3800B8B355 /* VMDisable.pdf in Resources */,
+				FE7DE5D011E3493200FD070F /* VMRunning.pdf in Resources */,
+				FE7DE75111E36CB300FD070F /* VMDown.pdf in Resources */,
+				FE7DE75211E36CB300FD070F /* VMUp.pdf in Resources */,
+				FEF4DE8A11E3C11B00996FC8 /* VMShut.pdf in Resources */,
+				FEF4DE9911E3D9E400996FC8 /* VMOptions.pdf in Resources */,
+				FE63C19311F1C24700EAD314 /* Credits.rtf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE23AC0B11C3DCC900801B8C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE23AC0C11C3DCC900801B8C /* InfoPlist.strings in Resources */,
+				FE23AC0D11C3DCC900801B8C /* MainMenu.xib in Resources */,
+				FE23AC0E11C3DCC900801B8C /* Localizable.strings in Resources */,
+				FE23AC0F11C3DCC900801B8C /* VirtualBox Menulet.icns in Resources */,
+				FE50759911D236F2006FBA24 /* SMIcon.pdf in Resources */,
+				FE25317B11DC68A80050ABD5 /* loginhelper in Resources */,
+				FEE2824611E1B81B0077E2BB /* Preferences.xib in Resources */,
+				FEA3DF2311E25C3800B8B355 /* VMDisable.pdf in Resources */,
+				FE7DE5D211E3493200FD070F /* VMRunning.pdf in Resources */,
+				FE7DE75311E36CB300FD070F /* VMDown.pdf in Resources */,
+				FE7DE75411E36CB300FD070F /* VMUp.pdf in Resources */,
+				FEF4DE8B11E3C11B00996FC8 /* VMShut.pdf in Resources */,
+				FEF4DE9A11E3D9E400996FC8 /* VMOptions.pdf in Resources */,
+				FE63C19411F1C24700EAD314 /* Credits.rtf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D11072C0486CEB800E47090 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072D0486CEB800E47090 /* main.m in Sources */,
+				FE8D849B11C0211B0082D3B6 /* VMAppController.m in Sources */,
+				FE5FC94611D79E0A0082BC65 /* VMCrippledButton.m in Sources */,
+				FEE2824B11E1B89D0077E2BB /* VMPreferences.m in Sources */,
+				FE7DE69E11E35A1200FD070F /* VMMenuItem.m in Sources */,
+				FE37972D11F9FD840089701F /* VMWindow.m in Sources */,
+				FE37974011F9FFDA0089701F /* VMTableView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE23AC1011C3DCC900801B8C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE23AC1111C3DCC900801B8C /* main.m in Sources */,
+				FE23AC1211C3DCC900801B8C /* VMAppController.m in Sources */,
+				FE5FC94711D79E0A0082BC65 /* VMCrippledButton.m in Sources */,
+				FEE2824C11E1B89D0077E2BB /* VMPreferences.m in Sources */,
+				FE7DE69F11E35A1200FD070F /* VMMenuItem.m in Sources */,
+				FE37972C11F9FD840089701F /* VMWindow.m in Sources */,
+				FE37973F11F9FFDA0089701F /* VMTableView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		089C165CFE840E0CC02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C165DFE840E0CC02AAC07 /* English */,
+				FE196D6511C1264800CB1564 /* Dutch */,
+				FE63C11F11F1B10A00EAD314 /* German */,
+				FE3552B311F88453006CF8A7 /* French */,
+				FED5616011FC478A001207B7 /* Italian */,
+				FEC30D5211FC7FE2006400D1 /* Spanish */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1DDD58140DA1D0A300B32029 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1DDD58150DA1D0A300B32029 /* English */,
+				FE196D6811C1264800CB1564 /* Dutch */,
+				FE63C12111F1B10A00EAD314 /* German */,
+				FE3552B511F88453006CF8A7 /* French */,
+				FED5616211FC478A001207B7 /* Italian */,
+				FEC30D5411FC7FE2006400D1 /* Spanish */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		FE196D6611C1264800CB1564 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FE196D6711C1264800CB1564 /* Dutch */,
+				FE196D6C11C1265600CB1564 /* English */,
+				FE63C12011F1B10A00EAD314 /* German */,
+				FE3552B411F88453006CF8A7 /* French */,
+				FED5616111FC478A001207B7 /* Italian */,
+				FEC30D5311FC7FE2006400D1 /* Spanish */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		FE63C19111F1C24700EAD314 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FE63C19211F1C24700EAD314 /* Dutch */,
+				FE63C19711F1C25000EAD314 /* English */,
+				FE63C19A11F1C25A00EAD314 /* German */,
+				FE3552B211F88453006CF8A7 /* French */,
+				FED5615F11FC478A001207B7 /* Italian */,
+				FEC30D5111FC7FE2006400D1 /* Spanish */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		FEE2824311E1B81B0077E2BB /* Preferences.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FEE2824411E1B81B0077E2BB /* English */,
+				FEE2829711E1C0E80077E2BB /* Dutch */,
+				FE63C12211F1B10A00EAD314 /* German */,
+				FE3552B611F88453006CF8A7 /* French */,
+				FED5616311FC478A001207B7 /* Italian */,
+				FEC30D5511FC7FE2006400D1 /* Spanish */,
+			);
+			name = Preferences.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C01FCF4B08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = i386;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VirtualBox Menulet_Prefix.pch";
+				GCC_VERSION = 4.0;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				MACOSX_DEPLOYMENT_TARGET = 10.4;
+				PRODUCT_NAME = "VirtualBox Menulet";
+				SDKROOT = macosx10.5;
+			};
+			name = Debug;
+		};
+		C01FCF4C08A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = i386;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VirtualBox Menulet_Prefix.pch";
+				GCC_VERSION = 4.0;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				MACOSX_DEPLOYMENT_TARGET = 10.4;
+				PRODUCT_NAME = "VirtualBox Menulet";
+				SDKROOT = macosx10.5;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.5;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.5;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.5;
+				PREBINDING = NO;
+				SDKROOT = macosx10.5;
+			};
+			name = Release;
+		};
+		FE23AC1611C3DCC900801B8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VirtualBox Menulet_Prefix.pch";
+				GCC_VERSION = 4.2;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = "VirtualBox Menulet";
+				SDKROOT = macosx10.5;
+			};
+			name = Debug;
+		};
+		FE23AC1711C3DCC900801B8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VirtualBox Menulet_Prefix.pch";
+				GCC_VERSION = 4.2;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = "VirtualBox Menulet";
+				SDKROOT = macosx10.5;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "VirtualBox Menulet (32-bit)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4B08A954540054247B /* Debug */,
+				C01FCF4C08A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "VirtualBox Menulet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE23AC1511C3DCC900801B8C /* Build configuration list for PBXNativeTarget "VirtualBox Menulet (64-bit) " */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE23AC1611C3DCC900801B8C /* Debug */,
+				FE23AC1711C3DCC900801B8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

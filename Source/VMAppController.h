@@ -49,6 +49,6 @@
 - (NSString *)runManagerWithOptions:(NSArray *)options;
 - (NSDictionary *)runningMachinePIDS;
 - (NSArray *)arrayFromString:(NSString *)string;
-- (NSImage *)menuImage:(NSImage *)image createHighlighted:(BOOL)highlighted isSMIcon:(BOOL)SMIcon;
+- (NSImage *)menuImage:(NSImage *)image isSMIcon:(BOOL)SMIcon;
 
 @end

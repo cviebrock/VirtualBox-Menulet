@@ -17,17 +17,12 @@
 	
 	statusItem = [[[NSStatusBar systemStatusBar] statusItemWithLength:NSVariableStatusItemLength] retain];
 	
-	NSImage *normalSMIcon = [NSImage imageNamed:@"SMIcon"];
+    NSImage *normalSMIcon = [NSImage imageNamed:@"SMIcon"];
 	
 	if (normalSMIcon)
 	{
-		NSImage *highlightedSMIcon = [NSImage imageNamed:@"SMIcon-disabled"];
-		
-		if (!highlightedSMIcon)
-			highlightedSMIcon = [self menuImage:normalSMIcon createHighlighted:YES isSMIcon:YES];
-		
-		[statusItem setImage:[self menuImage:normalSMIcon createHighlighted:NO isSMIcon:YES]];
-		[statusItem setAlternateImage:highlightedSMIcon];
+        [statusItem setImage:normalSMIcon];
+//		[statusItem setAlternateImage:highlightedSMIcon];
 	}
 	else
 	{
@@ -395,10 +390,11 @@
 						else
 							imageName = @"VMShut";
 						
-						NSImage *image = [NSImage imageNamed:imageName];
-						
-						[vmItem setIcon:[self menuImage:image createHighlighted:NO isSMIcon:NO]];
-						[vmItem setAlternateIcon:[self menuImage:image createHighlighted:YES isSMIcon:NO]];
+                        NSImage *image = [NSImage imageNamed:imageName];
+						[image setTemplate:YES];
+                        
+						[vmItem setIcon:[self menuImage:image isSMIcon:NO]];
+//						[vmItem setAlternateIcon:[self menuImage:image createHighlighted:YES isSMIcon:NO]];
 						
 						[vmMenuItems addObject:vmItem];
 						[statusMenu insertItem:vmItem atIndex:menuItemIndex];
@@ -439,8 +435,8 @@
 						
 				NSImage *image = [NSImage imageNamed:imageName];
 				
-				[vmItem setIcon:[self menuImage:image createHighlighted:NO isSMIcon:NO]];
-				[vmItem setAlternateIcon:[self menuImage:image createHighlighted:YES isSMIcon:NO]];
+				[vmItem setIcon:[self menuImage:image isSMIcon:NO]];
+//				[vmItem setAlternateIcon:[self menuImage:image createHighlighted:YES isSMIcon:NO]];
 				
 				[vmMenuItems addObject:vmItem];
 				[statusMenu insertItem:vmItem atIndex:menuItemIndex];
@@ -749,11 +745,11 @@
 	return newArray;
 }
 
-- (NSImage *)menuImage:(NSImage *)image createHighlighted:(BOOL)highlighted isSMIcon:(BOOL)SMIcon
+- (NSImage *)menuImage:(NSImage *)image isSMIcon:(BOOL)SMIcon
 {
-	int version = [self OSVersion];
 	NSSize imageSize = [image size];
-	
+    
+    
 	if (!SMIcon)
 		imageSize = NSMakeSize(10, 10);
 	
@@ -762,48 +758,11 @@
 	
 	NSImage *newImage = [[NSImage alloc] initWithSize:imageSize];
 	
-	[newImage lockFocus];
+    [newImage lockFocus];
+    [newImage setTemplate:YES];
 	
-	if (version < 0x1050)
-		[[NSGraphicsContext currentContext] setImageInterpolation: NSImageInterpolationHigh];
-	
-	//The status menu icon is drawn different in Mac OS X 10.5.8 and earlier
-	int x = 0;
-	
-	if (version < 0x1060 && SMIcon)
-	{
-		[[NSColor colorWithCalibratedHue:0 saturation:0 brightness:0 alpha:0] set];
-		NSRectFill(NSMakeRect(0, 0, 2, height));
-		
-		x = 2;
-	}
-	
-	if (highlighted)
-	{
-		[[NSColor whiteColor] set];
-		NSRectFill(NSMakeRect(x, 0, width - x, height));
-	}
-	
-	if (!highlighted)
-	{
-		NSShadow* shadw = [[[NSShadow alloc] init] autorelease];
-		[shadw setShadowOffset:NSMakeSize(0, -1.5)];
-		[shadw setShadowColor:[NSColor whiteColor]];
-		[shadw setShadowBlurRadius:0.5];
-		[shadw set];
-	}
-		
-	NSUInteger compositingOperation;
-	
-	//Want a weird looking icon in the menubar? Try using NSCompositeHighlight on 10.5 > 10.5.8
-	if (highlighted)
-		compositingOperation = NSCompositeDestinationAtop;
-	else if (version >= 0x1060)
-		compositingOperation = NSCompositeHighlight;
-	else
-		compositingOperation = NSCompositeCopy;
-		
-	[image drawInRect:NSMakeRect(x, 0, width, height) fromRect:NSZeroRect operation:compositingOperation fraction:1.0];
+    
+	[image drawInRect:NSMakeRect(0, 0, width, height) fromRect:NSZeroRect operation:NSCompositingOperationSourceOver fraction:1.0];
 		
 	[newImage unlockFocus];
 		

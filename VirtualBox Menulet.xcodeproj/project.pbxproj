@@ -3,11 +3,13 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 45;
+	objectVersion = 46;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		1DDD58160DA1D0A300B32029 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DDD58140DA1D0A300B32029 /* MainMenu.xib */; };
+		840CCD3F1E575AE0000D4224 /* SMIcon.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 840CCD3E1E575AE0000D4224 /* SMIcon.pdf */; };
+		840CCD401E575AE0000D4224 /* SMIcon.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 840CCD3E1E575AE0000D4224 /* SMIcon.pdf */; };
 		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
 		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
 		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
@@ -26,8 +28,6 @@
 		FE37972D11F9FD840089701F /* VMWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = FE37972B11F9FD840089701F /* VMWindow.m */; };
 		FE37973F11F9FFDA0089701F /* VMTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = FE37973E11F9FFDA0089701F /* VMTableView.m */; };
 		FE37974011F9FFDA0089701F /* VMTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = FE37973E11F9FFDA0089701F /* VMTableView.m */; };
-		FE50759811D236F2006FBA24 /* SMIcon.pdf in Resources */ = {isa = PBXBuildFile; fileRef = FE50759711D236F2006FBA24 /* SMIcon.pdf */; };
-		FE50759911D236F2006FBA24 /* SMIcon.pdf in Resources */ = {isa = PBXBuildFile; fileRef = FE50759711D236F2006FBA24 /* SMIcon.pdf */; };
 		FE5075A311D23868006FBA24 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE5075A211D23868006FBA24 /* QuartzCore.framework */; };
 		FE5075A411D23869006FBA24 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE5075A211D23868006FBA24 /* QuartzCore.framework */; };
 		FE5FC94611D79E0A0082BC65 /* VMCrippledButton.m in Sources */ = {isa = PBXBuildFile; fileRef = FE5FC94511D79E0A0082BC65 /* VMCrippledButton.m */; };
@@ -64,6 +64,7 @@
 		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
 		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
 		32CA4F630368D1EE00C91783 /* VirtualBox Menulet_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "VirtualBox Menulet_Prefix.pch"; sourceTree = "<group>"; };
+		840CCD3E1E575AE0000D4224 /* SMIcon.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = SMIcon.pdf; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8D1107320486CEB800E47090 /* VirtualBox Menulet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "VirtualBox Menulet.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE196D6511C1264800CB1564 /* Dutch */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Dutch; path = Dutch.lproj/InfoPlist.strings; sourceTree = "<group>"; };
@@ -82,7 +83,6 @@
 		FE37972B11F9FD840089701F /* VMWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VMWindow.m; path = Source/VMWindow.m; sourceTree = "<group>"; };
 		FE37973D11F9FFDA0089701F /* VMTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VMTableView.h; path = Source/VMTableView.h; sourceTree = "<group>"; };
 		FE37973E11F9FFDA0089701F /* VMTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VMTableView.m; path = Source/VMTableView.m; sourceTree = "<group>"; };
-		FE50759711D236F2006FBA24 /* SMIcon.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = SMIcon.pdf; path = Images/SMIcon.pdf; sourceTree = "<group>"; };
 		FE5075A211D23868006FBA24 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = /System/Library/Frameworks/QuartzCore.framework; sourceTree = "<absolute>"; };
 		FE5FC94411D79E0A0082BC65 /* VMCrippledButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VMCrippledButton.h; path = Source/VMCrippledButton.h; sourceTree = "<group>"; };
 		FE5FC94511D79E0A0082BC65 /* VMCrippledButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VMCrippledButton.m; path = Source/VMCrippledButton.m; sourceTree = "<group>"; };
@@ -237,13 +237,13 @@
 		FEBCC96A11EB2312007AFBF4 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				840CCD3E1E575AE0000D4224 /* SMIcon.pdf */,
 				FEF4DE8911E3C11B00996FC8 /* VMShut.pdf */,
 				FE7DE74F11E36CB300FD070F /* VMDown.pdf */,
 				FE7DE75011E36CB300FD070F /* VMUp.pdf */,
 				FE7DE5CE11E3493200FD070F /* VMRunning.pdf */,
 				FEA3DF1F11E25C3800B8B355 /* VMDisable.pdf */,
 				FEF4DE9811E3D9E400996FC8 /* VMOptions.pdf */,
-				FE50759711D236F2006FBA24 /* SMIcon.pdf */,
 			);
 			name = Images;
 			sourceTree = "<group>";
@@ -292,8 +292,12 @@
 /* Begin PBXProject section */
 		29B97313FDCFA39411CA2CEA /* Project object */ = {
 			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+			};
 			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "VirtualBox Menulet" */;
-			compatibilityVersion = "Xcode 3.1";
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
 			hasScannedForEncodings = 1;
 			knownRegions = (
 				English,
@@ -323,10 +327,10 @@
 				1DDD58160DA1D0A300B32029 /* MainMenu.xib in Resources */,
 				FE196D6911C1264800CB1564 /* Localizable.strings in Resources */,
 				FE196DB611C1979300CB1564 /* VirtualBox Menulet.icns in Resources */,
-				FE50759811D236F2006FBA24 /* SMIcon.pdf in Resources */,
 				FE25317C11DC68A80050ABD5 /* loginhelper in Resources */,
 				FEE2824511E1B81B0077E2BB /* Preferences.xib in Resources */,
 				FEA3DF2111E25C3800B8B355 /* VMDisable.pdf in Resources */,
+				840CCD3F1E575AE0000D4224 /* SMIcon.pdf in Resources */,
 				FE7DE5D011E3493200FD070F /* VMRunning.pdf in Resources */,
 				FE7DE75111E36CB300FD070F /* VMDown.pdf in Resources */,
 				FE7DE75211E36CB300FD070F /* VMUp.pdf in Resources */,
@@ -344,10 +348,10 @@
 				FE23AC0D11C3DCC900801B8C /* MainMenu.xib in Resources */,
 				FE23AC0E11C3DCC900801B8C /* Localizable.strings in Resources */,
 				FE23AC0F11C3DCC900801B8C /* VirtualBox Menulet.icns in Resources */,
-				FE50759911D236F2006FBA24 /* SMIcon.pdf in Resources */,
 				FE25317B11DC68A80050ABD5 /* loginhelper in Resources */,
 				FEE2824611E1B81B0077E2BB /* Preferences.xib in Resources */,
 				FEA3DF2311E25C3800B8B355 /* VMDisable.pdf in Resources */,
+				840CCD401E575AE0000D4224 /* SMIcon.pdf in Resources */,
 				FE7DE5D211E3493200FD070F /* VMRunning.pdf in Resources */,
 				FE7DE75311E36CB300FD070F /* VMDown.pdf in Resources */,
 				FE7DE75411E36CB300FD070F /* VMUp.pdf in Resources */,
@@ -463,7 +467,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = i386;
 				COPY_PHASE_STRIP = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_ENABLE_FIX_AND_CONTINUE = YES;
@@ -471,12 +474,13 @@
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "VirtualBox Menulet_Prefix.pch";
-				GCC_VERSION = 4.0;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "$(HOME)/Applications";
-				MACOSX_DEPLOYMENT_TARGET = 10.4;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kiwifruitware.VirtualBox_Menulet;
 				PRODUCT_NAME = "VirtualBox Menulet";
-				SDKROOT = macosx10.5;
+				SDKROOT = macosx;
 			};
 			name = Debug;
 		};
@@ -484,45 +488,76 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = i386;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_MODEL_TUNING = G5;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "VirtualBox Menulet_Prefix.pch";
-				GCC_VERSION = 4.0;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "$(HOME)/Applications";
-				MACOSX_DEPLOYMENT_TARGET = 10.4;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kiwifruitware.VirtualBox_Menulet;
 				PRODUCT_NAME = "VirtualBox Menulet";
-				SDKROOT = macosx10.5;
+				SDKROOT = macosx;
 			};
 			name = Release;
 		};
 		C01FCF4F08A954540054247B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.5;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				ONLY_ACTIVE_ARCH = YES;
 				PREBINDING = NO;
-				SDKROOT = macosx10.5;
+				SDKROOT = macosx;
 			};
 			name = Debug;
 		};
 		C01FCF5008A954540054247B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.5;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				PREBINDING = NO;
-				SDKROOT = macosx10.5;
+				SDKROOT = macosx;
 			};
 			name = Release;
 		};
@@ -530,7 +565,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				COPY_PHASE_STRIP = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_ENABLE_FIX_AND_CONTINUE = YES;
@@ -538,11 +572,12 @@
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "VirtualBox Menulet_Prefix.pch";
-				GCC_VERSION = 4.2;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kiwifruitware.VirtualBox_Menulet;
 				PRODUCT_NAME = "VirtualBox Menulet";
-				SDKROOT = macosx10.5;
+				SDKROOT = macosx;
 			};
 			name = Debug;
 		};
@@ -550,16 +585,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_MODEL_TUNING = G5;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "VirtualBox Menulet_Prefix.pch";
-				GCC_VERSION = 4.2;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kiwifruitware.VirtualBox_Menulet;
 				PRODUCT_NAME = "VirtualBox Menulet";
-				SDKROOT = macosx10.5;
+				SDKROOT = macosx;
 			};
 			name = Release;
 		};

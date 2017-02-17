@@ -9,6 +9,14 @@ Specifically, the icons have been cleaned up a bit, and the code has been altere
 ## Installation
 Clone the project and build it yourself, or grab a precompiled version from the [releases](https://github.com/cviebrock/VirtualBox-Menulet/releases).
 
+## Changes
+
+#### v1.7 - 17-Feb-2017
+
+- Fork of last official version (v1.6)
+- new icons with support for dark mode Menubar
+- removed support for OSX 10.7 or earlier
+
 
 ## Contact
 Part of the reason I forked this project is that the original developer appears to have abanndonned this project.  You

@@ -8,8 +8,26 @@
 
 /* Begin PBXBuildFile section */
 		1DDD58160DA1D0A300B32029 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DDD58140DA1D0A300B32029 /* MainMenu.xib */; };
-		840CCD3F1E575AE0000D4224 /* SMIcon.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 840CCD3E1E575AE0000D4224 /* SMIcon.pdf */; };
-		840CCD401E575AE0000D4224 /* SMIcon.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 840CCD3E1E575AE0000D4224 /* SMIcon.pdf */; };
+		8406271B1E577732008BE5F7 /* VirtualBox Menulet.icns in Resources */ = {isa = PBXBuildFile; fileRef = 840627101E577732008BE5F7 /* VirtualBox Menulet.icns */; };
+		8406271C1E577732008BE5F7 /* VirtualBox Menulet.icns in Resources */ = {isa = PBXBuildFile; fileRef = 840627101E577732008BE5F7 /* VirtualBox Menulet.icns */; };
+		8406271D1E577732008BE5F7 /* VMDisable.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 840627111E577732008BE5F7 /* VMDisable.pdf */; };
+		8406271E1E577732008BE5F7 /* VMDisable.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 840627111E577732008BE5F7 /* VMDisable.pdf */; };
+		8406271F1E577732008BE5F7 /* VMDown.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 840627121E577732008BE5F7 /* VMDown.pdf */; };
+		840627201E577732008BE5F7 /* VMDown.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 840627121E577732008BE5F7 /* VMDown.pdf */; };
+		840627211E577732008BE5F7 /* VMOptions.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 840627131E577732008BE5F7 /* VMOptions.pdf */; };
+		840627221E577732008BE5F7 /* VMOptions.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 840627131E577732008BE5F7 /* VMOptions.pdf */; };
+		840627231E577732008BE5F7 /* VMPause.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 840627141E577732008BE5F7 /* VMPause.pdf */; };
+		840627241E577732008BE5F7 /* VMPause.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 840627141E577732008BE5F7 /* VMPause.pdf */; };
+		840627251E577732008BE5F7 /* VMRunning.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 840627151E577732008BE5F7 /* VMRunning.pdf */; };
+		840627261E577732008BE5F7 /* VMRunning.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 840627151E577732008BE5F7 /* VMRunning.pdf */; };
+		840627271E577732008BE5F7 /* VMShut.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 840627161E577732008BE5F7 /* VMShut.pdf */; };
+		840627281E577732008BE5F7 /* VMShut.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 840627161E577732008BE5F7 /* VMShut.pdf */; };
+		840627291E577732008BE5F7 /* VMStopped.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 840627171E577732008BE5F7 /* VMStopped.pdf */; };
+		8406272A1E577732008BE5F7 /* VMStopped.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 840627171E577732008BE5F7 /* VMStopped.pdf */; };
+		8406272B1E577732008BE5F7 /* VMUp.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 840627181E577732008BE5F7 /* VMUp.pdf */; };
+		8406272C1E577732008BE5F7 /* VMUp.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 840627181E577732008BE5F7 /* VMUp.pdf */; };
+		8406272E1E577D35008BE5F7 /* SMIcon.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 8406272D1E577D35008BE5F7 /* SMIcon.pdf */; };
+		8406272F1E577D35008BE5F7 /* SMIcon.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 8406272D1E577D35008BE5F7 /* SMIcon.pdf */; };
 		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
 		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
 		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
@@ -34,25 +52,13 @@
 		FE5FC94711D79E0A0082BC65 /* VMCrippledButton.m in Sources */ = {isa = PBXBuildFile; fileRef = FE5FC94511D79E0A0082BC65 /* VMCrippledButton.m */; };
 		FE63C19311F1C24700EAD314 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = FE63C19111F1C24700EAD314 /* Credits.rtf */; };
 		FE63C19411F1C24700EAD314 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = FE63C19111F1C24700EAD314 /* Credits.rtf */; };
-		FE7DE5D011E3493200FD070F /* VMRunning.pdf in Resources */ = {isa = PBXBuildFile; fileRef = FE7DE5CE11E3493200FD070F /* VMRunning.pdf */; };
-		FE7DE5D211E3493200FD070F /* VMRunning.pdf in Resources */ = {isa = PBXBuildFile; fileRef = FE7DE5CE11E3493200FD070F /* VMRunning.pdf */; };
 		FE7DE69E11E35A1200FD070F /* VMMenuItem.m in Sources */ = {isa = PBXBuildFile; fileRef = FE7DE69D11E35A1200FD070F /* VMMenuItem.m */; };
 		FE7DE69F11E35A1200FD070F /* VMMenuItem.m in Sources */ = {isa = PBXBuildFile; fileRef = FE7DE69D11E35A1200FD070F /* VMMenuItem.m */; };
-		FE7DE75111E36CB300FD070F /* VMDown.pdf in Resources */ = {isa = PBXBuildFile; fileRef = FE7DE74F11E36CB300FD070F /* VMDown.pdf */; };
-		FE7DE75211E36CB300FD070F /* VMUp.pdf in Resources */ = {isa = PBXBuildFile; fileRef = FE7DE75011E36CB300FD070F /* VMUp.pdf */; };
-		FE7DE75311E36CB300FD070F /* VMDown.pdf in Resources */ = {isa = PBXBuildFile; fileRef = FE7DE74F11E36CB300FD070F /* VMDown.pdf */; };
-		FE7DE75411E36CB300FD070F /* VMUp.pdf in Resources */ = {isa = PBXBuildFile; fileRef = FE7DE75011E36CB300FD070F /* VMUp.pdf */; };
 		FE8D849B11C0211B0082D3B6 /* VMAppController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE8D849A11C0211B0082D3B6 /* VMAppController.m */; };
-		FEA3DF2111E25C3800B8B355 /* VMDisable.pdf in Resources */ = {isa = PBXBuildFile; fileRef = FEA3DF1F11E25C3800B8B355 /* VMDisable.pdf */; };
-		FEA3DF2311E25C3800B8B355 /* VMDisable.pdf in Resources */ = {isa = PBXBuildFile; fileRef = FEA3DF1F11E25C3800B8B355 /* VMDisable.pdf */; };
 		FEE2824511E1B81B0077E2BB /* Preferences.xib in Resources */ = {isa = PBXBuildFile; fileRef = FEE2824311E1B81B0077E2BB /* Preferences.xib */; };
 		FEE2824611E1B81B0077E2BB /* Preferences.xib in Resources */ = {isa = PBXBuildFile; fileRef = FEE2824311E1B81B0077E2BB /* Preferences.xib */; };
 		FEE2824B11E1B89D0077E2BB /* VMPreferences.m in Sources */ = {isa = PBXBuildFile; fileRef = FEE2824911E1B89D0077E2BB /* VMPreferences.m */; };
 		FEE2824C11E1B89D0077E2BB /* VMPreferences.m in Sources */ = {isa = PBXBuildFile; fileRef = FEE2824911E1B89D0077E2BB /* VMPreferences.m */; };
-		FEF4DE8A11E3C11B00996FC8 /* VMShut.pdf in Resources */ = {isa = PBXBuildFile; fileRef = FEF4DE8911E3C11B00996FC8 /* VMShut.pdf */; };
-		FEF4DE8B11E3C11B00996FC8 /* VMShut.pdf in Resources */ = {isa = PBXBuildFile; fileRef = FEF4DE8911E3C11B00996FC8 /* VMShut.pdf */; };
-		FEF4DE9911E3D9E400996FC8 /* VMOptions.pdf in Resources */ = {isa = PBXBuildFile; fileRef = FEF4DE9811E3D9E400996FC8 /* VMOptions.pdf */; };
-		FEF4DE9A11E3D9E400996FC8 /* VMOptions.pdf in Resources */ = {isa = PBXBuildFile; fileRef = FEF4DE9811E3D9E400996FC8 /* VMOptions.pdf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -64,7 +70,16 @@
 		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
 		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
 		32CA4F630368D1EE00C91783 /* VirtualBox Menulet_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "VirtualBox Menulet_Prefix.pch"; sourceTree = "<group>"; };
-		840CCD3E1E575AE0000D4224 /* SMIcon.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = SMIcon.pdf; sourceTree = "<group>"; };
+		840627101E577732008BE5F7 /* VirtualBox Menulet.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = "VirtualBox Menulet.icns"; path = "Images/VirtualBox Menulet.icns"; sourceTree = "<group>"; };
+		840627111E577732008BE5F7 /* VMDisable.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = VMDisable.pdf; path = Images/VMDisable.pdf; sourceTree = "<group>"; };
+		840627121E577732008BE5F7 /* VMDown.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = VMDown.pdf; path = Images/VMDown.pdf; sourceTree = "<group>"; };
+		840627131E577732008BE5F7 /* VMOptions.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = VMOptions.pdf; path = Images/VMOptions.pdf; sourceTree = "<group>"; };
+		840627141E577732008BE5F7 /* VMPause.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = VMPause.pdf; path = Images/VMPause.pdf; sourceTree = "<group>"; };
+		840627151E577732008BE5F7 /* VMRunning.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = VMRunning.pdf; path = Images/VMRunning.pdf; sourceTree = "<group>"; };
+		840627161E577732008BE5F7 /* VMShut.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = VMShut.pdf; path = Images/VMShut.pdf; sourceTree = "<group>"; };
+		840627171E577732008BE5F7 /* VMStopped.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = VMStopped.pdf; path = Images/VMStopped.pdf; sourceTree = "<group>"; };
+		840627181E577732008BE5F7 /* VMUp.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = VMUp.pdf; path = Images/VMUp.pdf; sourceTree = "<group>"; };
+		8406272D1E577D35008BE5F7 /* SMIcon.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = SMIcon.pdf; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8D1107320486CEB800E47090 /* VirtualBox Menulet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "VirtualBox Menulet.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE196D6511C1264800CB1564 /* Dutch */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Dutch; path = Dutch.lproj/InfoPlist.strings; sourceTree = "<group>"; };
@@ -93,14 +108,10 @@
 		FE63C19211F1C24700EAD314 /* Dutch */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = Dutch; path = Dutch.lproj/Credits.rtf; sourceTree = "<group>"; };
 		FE63C19711F1C25000EAD314 /* English */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = English; path = English.lproj/Credits.rtf; sourceTree = "<group>"; };
 		FE63C19A11F1C25A00EAD314 /* German */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = German; path = German.lproj/Credits.rtf; sourceTree = "<group>"; };
-		FE7DE5CE11E3493200FD070F /* VMRunning.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = VMRunning.pdf; path = Images/VMRunning.pdf; sourceTree = "<group>"; };
 		FE7DE69C11E35A1200FD070F /* VMMenuItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VMMenuItem.h; path = Source/VMMenuItem.h; sourceTree = "<group>"; };
 		FE7DE69D11E35A1200FD070F /* VMMenuItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VMMenuItem.m; path = Source/VMMenuItem.m; sourceTree = "<group>"; };
-		FE7DE74F11E36CB300FD070F /* VMDown.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = VMDown.pdf; path = Images/VMDown.pdf; sourceTree = "<group>"; };
-		FE7DE75011E36CB300FD070F /* VMUp.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = VMUp.pdf; path = Images/VMUp.pdf; sourceTree = "<group>"; };
 		FE8D849911C0211B0082D3B6 /* VMAppController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VMAppController.h; path = Source/VMAppController.h; sourceTree = "<group>"; };
 		FE8D849A11C0211B0082D3B6 /* VMAppController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VMAppController.m; path = Source/VMAppController.m; sourceTree = "<group>"; };
-		FEA3DF1F11E25C3800B8B355 /* VMDisable.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = VMDisable.pdf; path = Images/VMDisable.pdf; sourceTree = "<group>"; };
 		FEC30D5111FC7FE2006400D1 /* Spanish */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = Spanish; path = Spanish.lproj/Credits.rtf; sourceTree = "<group>"; };
 		FEC30D5211FC7FE2006400D1 /* Spanish */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Spanish; path = Spanish.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		FEC30D5311FC7FE2006400D1 /* Spanish */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Spanish; path = Spanish.lproj/Localizable.strings; sourceTree = "<group>"; };
@@ -115,8 +126,6 @@
 		FEE2824911E1B89D0077E2BB /* VMPreferences.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VMPreferences.m; path = Source/VMPreferences.m; sourceTree = "<group>"; };
 		FEE2824A11E1B89D0077E2BB /* VMPreferences.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VMPreferences.h; path = Source/VMPreferences.h; sourceTree = "<group>"; };
 		FEE2829711E1C0E80077E2BB /* Dutch */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Dutch; path = Dutch.lproj/Preferences.xib; sourceTree = "<group>"; };
-		FEF4DE8911E3C11B00996FC8 /* VMShut.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = VMShut.pdf; path = Images/VMShut.pdf; sourceTree = "<group>"; };
-		FEF4DE9811E3D9E400996FC8 /* VMOptions.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = VMOptions.pdf; path = Images/VMOptions.pdf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -237,13 +246,16 @@
 		FEBCC96A11EB2312007AFBF4 /* Images */ = {
 			isa = PBXGroup;
 			children = (
-				840CCD3E1E575AE0000D4224 /* SMIcon.pdf */,
-				FEF4DE8911E3C11B00996FC8 /* VMShut.pdf */,
-				FE7DE74F11E36CB300FD070F /* VMDown.pdf */,
-				FE7DE75011E36CB300FD070F /* VMUp.pdf */,
-				FE7DE5CE11E3493200FD070F /* VMRunning.pdf */,
-				FEA3DF1F11E25C3800B8B355 /* VMDisable.pdf */,
-				FEF4DE9811E3D9E400996FC8 /* VMOptions.pdf */,
+				8406272D1E577D35008BE5F7 /* SMIcon.pdf */,
+				840627101E577732008BE5F7 /* VirtualBox Menulet.icns */,
+				840627111E577732008BE5F7 /* VMDisable.pdf */,
+				840627121E577732008BE5F7 /* VMDown.pdf */,
+				840627131E577732008BE5F7 /* VMOptions.pdf */,
+				840627141E577732008BE5F7 /* VMPause.pdf */,
+				840627151E577732008BE5F7 /* VMRunning.pdf */,
+				840627161E577732008BE5F7 /* VMShut.pdf */,
+				840627171E577732008BE5F7 /* VMStopped.pdf */,
+				840627181E577732008BE5F7 /* VMUp.pdf */,
 			);
 			name = Images;
 			sourceTree = "<group>";
@@ -323,20 +335,23 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				840627211E577732008BE5F7 /* VMOptions.pdf in Resources */,
+				840627271E577732008BE5F7 /* VMShut.pdf in Resources */,
+				840627231E577732008BE5F7 /* VMPause.pdf in Resources */,
 				8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */,
+				8406271B1E577732008BE5F7 /* VirtualBox Menulet.icns in Resources */,
 				1DDD58160DA1D0A300B32029 /* MainMenu.xib in Resources */,
 				FE196D6911C1264800CB1564 /* Localizable.strings in Resources */,
+				840627291E577732008BE5F7 /* VMStopped.pdf in Resources */,
+				8406271D1E577732008BE5F7 /* VMDisable.pdf in Resources */,
+				8406272B1E577732008BE5F7 /* VMUp.pdf in Resources */,
 				FE196DB611C1979300CB1564 /* VirtualBox Menulet.icns in Resources */,
+				840627251E577732008BE5F7 /* VMRunning.pdf in Resources */,
 				FE25317C11DC68A80050ABD5 /* loginhelper in Resources */,
 				FEE2824511E1B81B0077E2BB /* Preferences.xib in Resources */,
-				FEA3DF2111E25C3800B8B355 /* VMDisable.pdf in Resources */,
-				840CCD3F1E575AE0000D4224 /* SMIcon.pdf in Resources */,
-				FE7DE5D011E3493200FD070F /* VMRunning.pdf in Resources */,
-				FE7DE75111E36CB300FD070F /* VMDown.pdf in Resources */,
-				FE7DE75211E36CB300FD070F /* VMUp.pdf in Resources */,
-				FEF4DE8A11E3C11B00996FC8 /* VMShut.pdf in Resources */,
-				FEF4DE9911E3D9E400996FC8 /* VMOptions.pdf in Resources */,
 				FE63C19311F1C24700EAD314 /* Credits.rtf in Resources */,
+				8406271F1E577732008BE5F7 /* VMDown.pdf in Resources */,
+				8406272E1E577D35008BE5F7 /* SMIcon.pdf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -344,20 +359,23 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				840627221E577732008BE5F7 /* VMOptions.pdf in Resources */,
+				840627281E577732008BE5F7 /* VMShut.pdf in Resources */,
+				840627241E577732008BE5F7 /* VMPause.pdf in Resources */,
 				FE23AC0C11C3DCC900801B8C /* InfoPlist.strings in Resources */,
+				8406271C1E577732008BE5F7 /* VirtualBox Menulet.icns in Resources */,
 				FE23AC0D11C3DCC900801B8C /* MainMenu.xib in Resources */,
 				FE23AC0E11C3DCC900801B8C /* Localizable.strings in Resources */,
+				8406272A1E577732008BE5F7 /* VMStopped.pdf in Resources */,
+				8406271E1E577732008BE5F7 /* VMDisable.pdf in Resources */,
+				8406272C1E577732008BE5F7 /* VMUp.pdf in Resources */,
 				FE23AC0F11C3DCC900801B8C /* VirtualBox Menulet.icns in Resources */,
+				840627261E577732008BE5F7 /* VMRunning.pdf in Resources */,
 				FE25317B11DC68A80050ABD5 /* loginhelper in Resources */,
 				FEE2824611E1B81B0077E2BB /* Preferences.xib in Resources */,
-				FEA3DF2311E25C3800B8B355 /* VMDisable.pdf in Resources */,
-				840CCD401E575AE0000D4224 /* SMIcon.pdf in Resources */,
-				FE7DE5D211E3493200FD070F /* VMRunning.pdf in Resources */,
-				FE7DE75311E36CB300FD070F /* VMDown.pdf in Resources */,
-				FE7DE75411E36CB300FD070F /* VMUp.pdf in Resources */,
-				FEF4DE8B11E3C11B00996FC8 /* VMShut.pdf in Resources */,
-				FEF4DE9A11E3D9E400996FC8 /* VMOptions.pdf in Resources */,
 				FE63C19411F1C24700EAD314 /* Credits.rtf in Resources */,
+				840627201E577732008BE5F7 /* VMDown.pdf in Resources */,
+				8406272F1E577D35008BE5F7 /* SMIcon.pdf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

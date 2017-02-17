@@ -21,8 +21,8 @@
 	
 	if (normalSMIcon)
 	{
+        [normalSMIcon setTemplate:YES];
         [statusItem setImage:normalSMIcon];
-//		[statusItem setAlternateImage:highlightedSMIcon];
 	}
 	else
 	{
@@ -761,7 +761,6 @@
     [newImage lockFocus];
     [newImage setTemplate:YES];
 	
-    
 	[image drawInRect:NSMakeRect(0, 0, width, height) fromRect:NSZeroRect operation:NSCompositingOperationSourceOver fraction:1.0];
 		
 	[newImage unlockFocus];
